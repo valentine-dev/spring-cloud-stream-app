@@ -10,6 +10,7 @@ Version 2: https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.RELEASE/refe
 * @EnableBinding, @Qualifier, @StreamListener
 
 Version 3: https://docs.spring.io/spring-cloud-stream/docs/current-snapshot/reference/html/_programming_model.html
+* First class support for fully functional programming model
 
 # Streaming Processing with Apache Kafka Streams
 https://spring.io/blog/2019/12/02/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-1-programming-model

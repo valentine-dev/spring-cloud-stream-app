@@ -13,4 +13,4 @@ Version 3: https://docs.spring.io/spring-cloud-stream/docs/current-snapshot/refe
 * First class support for fully functional programming model
 
 # Streaming Processing with Apache Kafka Streams
-https://spring.io/blog/2019/12/02/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-1-programming-model
+https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-6-state-stores-and-interactive-queries

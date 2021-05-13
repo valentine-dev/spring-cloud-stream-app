@@ -21,4 +21,4 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 
 
 # Apache Kafka Streams
-1. [Intro to Streams](https://www.youtube.com/watch?v=Z3JKCLG3VP4) API on YouTube
+1. [Intro to Streams API](https://www.youtube.com/watch?v=Z3JKCLG3VP4) on YouTube

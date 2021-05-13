@@ -25,3 +25,4 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     * High-level declarative, functional API  - [Streams DSL](https://docs.confluent.io/platform/current/streams/developer-guide/dsl-api.html)
     * Low-level imperative API - [Processor API](https://docs.confluent.io/platform/current/streams/developer-guide/processor-api.html)
 2. [Streams and Tables in Apache Kafka](https://www.confluent.io/blog/kafka-streams-tables-part-1-event-streaming/)
+3. [Kafka Streams Interactive Queries](https://docs.confluent.io/platform/current/streams/developer-guide/interactive-queries.html#streams-developer-guide-interactive-queries)

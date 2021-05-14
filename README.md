@@ -22,7 +22,10 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 
 # Apache Kafka Streams
 ## From Apache Kafka
-1. [Kafka Streams](https://kafka.apache.org/documentation/streams/)
+1. [Kafka Streams](https://kafka.apache.org/documentation/streams/) 
+    ```
+    a client library for processing and analyzing data stored in Kafka
+    ```
 
 
 ## From Confluent

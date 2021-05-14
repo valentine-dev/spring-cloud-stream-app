@@ -44,26 +44,27 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 5. [Stream Processor](https://kafka.apache.org/28/documentation/streams/developer-guide/processor-api#defining-a-stream-processor) - a node in the processor topology
     * Source Processor - a special type of stream processor that does not have any upstream processors
     * Sink Processor - a special type of stream processor that does not have down-stream processors
-6. Time
+6. Time - timestamp embedded automatically into Kafka message is Event time when Kafka's configuration of message.timestamp.type is CreateTime (default) or Ingestion time when LogAppendTime
     * Event time - when an event or data record occurred
     * Ingestion time -  when an event or data record is stored in a topic partition by a Kafka broker
     * Processing time - when the event or data record happens to be processed by the stream processing application 
     * Stream time - Kafka Streams assigns a timestamp to every data record when it arrives at the processor via the TimestampExtractor interface
     * Publish time - Kafka Streams assigns a timestamp to every new record when writing it to Kafka
-8. Stream-Table Duality - Kafka Streams models it explicitly via the following three interfaces
+7. Stream-Table Duality - Kafka Streams models it explicitly via the following three interfaces
     * [KStream](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_kstream)
     * [KTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_ktable)
     * [GlobalKTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_globalktable)
-9. Aggregations - An aggregation operation takes one input stream or table, and yields a new table by combining multiple input records into a single output record.
-10. Windowing - control how to group records with the same key for stateful operations into so-called windows
+8. Aggregations - An aggregation operation takes one input stream or table, and yields a new table by combining multiple input records into a single output record.
+9. Windowing - control how to group records with the same key for stateful operations into so-called windows
     * Grace period - controls how long Kafka Streams will wait for out-of-order data records for a given window
-11. States
+10. States
     * State stores - used by stream processing applications to store and query data
     * Interactive queries - direct read-only queries of the state stores by methods, threads, processes or applications external to the stream processing application that created the state stores
-12. Exactly-once Guarantee
+11. Exactly-once Guarantee
     * For configuration in Spring Cloud Stream, see [here](https://stackoverflow.com/questions/54952918/spring-cloud-stream-vs-kafka-stream-for-exactly-once-feature)
-13. Out-of-Order Handling
-
+12. Out-of-Order Handling
+    * Wait for longer time while bookkeeping their states during the wait time, i.e. making trade-off decisions between latency, cost, and correctness
+    * For Joins in Kafka Streams, some of the out-of-order data cannot be handled by increasing on latency and cost yet
 
 ## From Confluent
 1. [Intro to Streams API](https://www.youtube.com/watch?v=Z3JKCLG3VP4) on YouTube

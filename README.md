@@ -50,8 +50,11 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     * Processing time - when the event or data record happens to be processed by the stream processing application 
     * Stream time - Kafka Streams assigns a timestamp to every data record when it arrives at the processor via the TimestampExtractor interface
     * Publish time - Kafka Streams assigns a timestamp to every new record when writing it to Kafka
-8. y
-9. o
+8. Stream-Table Duality - Kafka Streams models it explicitly via the following three interfaces
+    * [KStream](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_kstream)
+    * [KTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_ktable)
+    * [GlobalKTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_globalktable)
+
 
 
 ## From Confluent

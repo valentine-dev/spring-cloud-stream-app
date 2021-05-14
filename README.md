@@ -44,6 +44,14 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 5. [Stream Processor](https://kafka.apache.org/28/documentation/streams/developer-guide/processor-api#defining-a-stream-processor) - a node in the processor topology
     * Source Processor - a special type of stream processor that does not have any upstream processors
     * Sink Processor - a special type of stream processor that does not have down-stream processors
+6. Time
+  * Event time
+  * Ingestion time
+  * Processing time
+  * Stream time - Kafka Streams assigns a timestamp to every data record when it arrives at the processor via the TimestampExtractor interface
+  * Publish time - Kafka Streams assigns a timestamp to every new record when writing it to Kafka
+8. y
+9. o
 
 
 ## From Confluent

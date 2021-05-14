@@ -21,6 +21,11 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 
 
 # Apache Kafka Streams
+## From Apache Kafka
+1.[Kafka Streams](https://kafka.apache.org/documentation/streams/)
+
+
+## From Confluent
 1. [Intro to Streams API](https://www.youtube.com/watch?v=Z3JKCLG3VP4) on YouTube
     * High-level declarative, functional API  - [Streams DSL](https://docs.confluent.io/platform/current/streams/developer-guide/dsl-api.html)
     * Low-level imperative API - [Processor API](https://docs.confluent.io/platform/current/streams/developer-guide/processor-api.html)

@@ -62,6 +62,7 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     * Interactive queries - direct read-only queries of the state stores by methods, threads, processes or applications external to the stream processing application that created the state stores
 12. Exactly-once Guarantee
     * For configuration in Spring Cloud Stream, see [here](https://stackoverflow.com/questions/54952918/spring-cloud-stream-vs-kafka-stream-for-exactly-once-feature)
+13. Out-of-Order Handling
 
 
 ## From Confluent

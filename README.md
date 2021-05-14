@@ -54,7 +54,12 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     * [KStream](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_kstream)
     * [KTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_ktable)
     * [GlobalKTable](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api#streams_concepts_globalktable)
-
+9. Aggregations - An aggregation operation takes one input stream or table, and yields a new table by combining multiple input records into a single output record.
+10. Windowing - control how to group records with the same key for stateful operations into so-called windows
+    * Grace period - controls how long Kafka Streams will wait for out-of-order data records for a given window
+11. States
+    * State stores - used by stream processing applications to store and query data
+    * Interactive queries - direct read-only queries of the state stores by methods, threads, processes or applications external to the stream processing application that created the state stores
 
 
 ## From Confluent

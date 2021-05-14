@@ -29,6 +29,21 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 2. Stream
     * represents an unbounded, continuously updating data set
     * is an ordered, replayable, and fault-tolerant sequence of immutable data records (key-value pair)
+3. Stream Processing Application
+    * is any program that makes use of the Kafka Streams library
+    * defines its computational logic through one or more processor topologies
+4. Processor Topology
+    * a graph of stream processors (nodes) that are connected by streams (edges)
+    * two ways to define
+    ** [Streams DSL](https://kafka.apache.org/28/documentation/streams/developer-guide/dsl-api.html) - provides the most common data transformation operations
+    *** stateless, like map, filter
+    *** stateful, like join, aggregations
+    ** [Processor API](https://kafka.apache.org/28/documentation/streams/developer-guide/processor-api.html) - allows developers to
+    *** define and connect custom processors
+    *** interact with [state stores](https://kafka.apache.org/28/documentation/streams/core-concepts#streams_state)
+5. [Stream Processor](https://kafka.apache.org/28/documentation/streams/developer-guide/processor-api#defining-a-stream-processor) - a node in the processor topology
+    * Source Processor - a special type of stream processor that does not have any upstream processors
+    * Sink Processor - a special type of stream processor that does not have down-stream processors
 
 
 ## From Confluent

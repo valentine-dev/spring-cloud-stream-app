@@ -60,7 +60,8 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
 11. States
     * State stores - used by stream processing applications to store and query data
     * Interactive queries - direct read-only queries of the state stores by methods, threads, processes or applications external to the stream processing application that created the state stores
-12. Exactly-once Guarantee - For Spring Cloud Stream, see [how to configure](https://stackoverflow.com/questions/54952918/spring-cloud-stream-vs-kafka-stream-for-exactly-once-feature)
+12. Exactly-once Guarantee
+    * For configuration in Spring Cloud Stream, see [here](https://stackoverflow.com/questions/54952918/spring-cloud-stream-vs-kafka-stream-for-exactly-once-feature)
 
 
 ## From Confluent

@@ -26,6 +26,9 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     ```
     a client library for processing and analyzing data stored in Kafka
     ```
+2. Stream
+    * represents an unbounded, continuously updating data set
+    * is an ordered, replayable, and fault-tolerant sequence of immutable data records (key-value pair)
 
 
 ## From Confluent

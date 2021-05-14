@@ -45,11 +45,11 @@ https://spring.io/blog/2019/12/09/stream-processing-with-spring-cloud-stream-and
     * Source Processor - a special type of stream processor that does not have any upstream processors
     * Sink Processor - a special type of stream processor that does not have down-stream processors
 6. Time
-  * Event time
-  * Ingestion time
-  * Processing time
-  * Stream time - Kafka Streams assigns a timestamp to every data record when it arrives at the processor via the TimestampExtractor interface
-  * Publish time - Kafka Streams assigns a timestamp to every new record when writing it to Kafka
+    * Event time - when an event or data record occurred
+    * Ingestion time -  when an event or data record is stored in a topic partition by a Kafka broker
+    * Processing time - when the event or data record happens to be processed by the stream processing application 
+    * Stream time - Kafka Streams assigns a timestamp to every data record when it arrives at the processor via the TimestampExtractor interface
+    * Publish time - Kafka Streams assigns a timestamp to every new record when writing it to Kafka
 8. y
 9. o
 

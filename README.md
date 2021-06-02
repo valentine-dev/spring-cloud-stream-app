@@ -9,7 +9,7 @@ Version 2: https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.RELEASE/refe
 * bindable components - MessageChannel for outbound and SubscribableChannel for inbound (PollableMessageSource for a pollable consumer)
 * @EnableBinding, @Qualifier, @StreamListener
 
-Version 3: https://docs.spring.io/spring-cloud-stream/docs/current-snapshot/reference/html/_programming_model.html
+Version 3: https://docs.spring.io/spring-cloud-stream/docs/3.1.3/reference/html/spring-cloud-stream.html#_programming_model
 * First class support for fully functional programming model
 
 # Streaming Processing with Apache Kafka Streams

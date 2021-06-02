@@ -1,4 +1,4 @@
-# Programming Model
+# Programming Model: Annotation-based 👉 Functional
 
 Version 1: https://docs.spring.io/spring-cloud-stream/docs/1.0.0.RC2/reference/html/_programming_model.html
 * Bound interfaces
